@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pure Planet</title>
+    <link rel="icon" type="image/x-icon" href="rainbow-leaf-logo-design-vector_474888-2054-removebg-preview.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style1.css"> -->
+     <!-- <link rel="stylesheet" href="testing.css"> -->
+    <link rel="stylesheet" href="loco.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+        <div id="page-1">
+            <div id="page-1-bcg"></div>
+            <div id="page-1-content">  
+             <div id="nav-bar">
+                 <div id="icon"><i class="ri-menu-add-line"></i>
+                    </div>
+                 <div id="logo"><img src="rainbow-leaf-logo-design-vector_474888-2054-removebg-preview.png" alt=""></div>
+                 <div id="contact">
+                     <h2>Contact Now</h2>
+                     <h3><i class="ri-phone-line"></i> (+911234567899)</h3>
+                 </div>
+             </div>
+             <div id="nav-title">
+                 <a href="#">Explore</a>
+                 <div class="line"></div>
+                 <a href="#">Discover</a>
+                 <div class="line"></div>
+                 <a href="#">Connect With Us</a>
+                 <div class="line"></div>
+                 <a href="#">Works</a>
+                 <div class="line"></div>
+                 <a href="#">About</a>
+             </div>
+             <div id="heading">
+                 <h1>A Legendary Heaven in Nature</h1>
+                 <h2>Discover nature’s timeless beauty in every corner</h2>
+             </div>
+             <div class="circle">
+                 <div onclick="changeBackground()" class="circle-left">
+                     <i id="one" class="ri-arrow-left-circle-line"></i>
+                     <i class="ri-arrow-left-circle-line"></i>
+                 </div>
+                 <div onclick="changeBackground()" class="circle-right">
+                     <i class="ri-arrow-right-circle-line"></i>
+                     <i class="ri-arrow-right-circle-line"></i>
+                 </div>
+             </div>
+         </div> 
+        </div>
+           
+        <div id="page-2">
+                <div class="about-heading">
+                    <img id="one-img" src="https://www.shutterstock.com/image-vector/logo-design-eagle-nature-bird-600nw-2471522591.jpg" alt="">
+                    <h1>Explore the beauty and wonders of nature with Pure Planet.</h1>
+                    <img id="two-img" src="https://t3.ftcdn.net/jpg/03/90/34/84/240_F_390348404_WIWM3jQXlhn2D10IMwnasmaBRZye9FJV.jpg" alt="">
+                </div>
+                <div class="about">
+                    <div class="about-parts" id="about-img">
+                    
+                    </div>
+                    <div class="about-parts" id="about-para">
+                            <div class="welcome"><h2>Welcome to Pure Planet</h2></div>
+                            <div class="para"><p id="para1" >Launched in 2024, Pure Planet is designed to inspire appreciation and conservation of our natural world. It’s a space to explore nature’s beauty, promote sustainability, and encourage a deeper, more mindful connection with the environment.</p>
+                                <p id="para2">&emsp;With stunning visuals, in-depth articles, and practical, eco-friendly tips, Pure Planet offers visitors a unique and immersive journey into the wonders of our natural world. The platform goes beyond showcasing nature’s beauty—it provides a wealth of resources, from conservation guides to interactive tools that help users make environmentally responsible choices in their daily lives. By fostering knowledge and inspiring action, Pure Planet empowers individuals to actively participate in protecting our planet, driving a collective effort toward a greener, more resilient, and sustainable future for all.</p></div>
+                            <div class="explore">
+                                <button>View Works</button>
+                            </div>
+                    </div>
+                </div>
+        </div>
+        <div id="page-3">
+            <div class="item">
+                <h1>Wildlife Exploration</h1>
+                <p>Explore diverse wildlife, habitats, and conservation efforts through interactive content and galleries.</p>
+                <i class="ri-arrow-right-line"></i>
+            </div>
+            <div class="item" >
+                <h1>Forest Adventures</h1>
+                <p>Take virtual tours of stunning forests, highlighting ecosystems, wildlife, and conservation challenges.</p>
+                <i class="ri-arrow-right-line"></i>
+            </div>
+            <div class="item">
+                 <h1>Ocean Mysteries</h1>
+                <p>Dive into marine life, coral reefs, and ocean conservation with engaging underwater visuals.</p>
+                <i class="ri-arrow-right-line"></i>
+            </div>
+            <div class="item">
+                 <h1>Sustainability Hub</h1>
+                <p>Discover eco-friendly tips, guides, and products to live sustainably and reduce your footprint.</p>
+                <i class="ri-arrow-right-line"></i>
+            </div>
+            <div class="item">
+                 <h1>Eco-Tourism Guides</h1>
+                <p>Explore eco-friendly travel destinations, responsible safaris, and sustainable nature experiences worldwide.</p>
+                <i class="ri-arrow-right-line"></i>
+            </div>
+            <div class="item">
+                 <h1>Planet Health News</h1>
+                <p>Stay informed with updates on climate change, endangered species, and global environmental issues.</p>
+                <i class="ri-arrow-right-line"></i>
+            </div>
+        </div>
+        <div id="page-4">
+            <div class="margin">
+                <div class="heading-bar">
+                    <h1>Interactive Exploration of <span>7</span> Natural Wonders</h1>
+                    <div class="icons">
+                        <i class="ri-arrow-left-box-line"></i>
+                        <i class="ri-arrow-right-box-fill"></i>
+                    </div>
+                </div> 
+                    <div class="explores">
+                        <i onclick="prevSlide();" class="ri-arrow-left-s-fill"></i>
+                        <div class="explore-nature"  id="one">
+                            <div class="img-sec">
+                                <i onclick="changeBackgroundOne();" class="ri-arrow-left-wide-line"></i>
+                                <i onclick="changeBackgroundOne();" class="ri-arrow-right-wide-line"></i>
+                            </div>
+                            <div class="content-sec">
+                                <h2>Mount Everest</h2>
+                                <p>The highest peak on Earth, capping the Himalayas and separating the plains of the Indian subcontinent from the Tibetan Plateau. Mount Everest was first climbed in 1953, and while it may have become easier than ever to visit, it remains a natural wonder.</p>
+                                <div class="buttons">
+                                    <button>Explore</button>
+                                    <button>Know More</button>
+                                   </div>
+                            </div>
+                        </div>
+                        <div class="explore-nature" id="two">
+                            <div class="img-sec">
+                                <i onclick="changeBackgroundTwo();" class="ri-arrow-left-wide-line"></i>
+                                <i onclick="changeBackgroundTwo();" class="ri-arrow-right-wide-line"></i>
+                            </div>
+                            <div class="content-sec">
+                                <h2>Volcán de Parícutin</h2>
+                                <p>On the 20th of February 1943, in a cornfield on the outskirts of Uruapan, Mexico, the ground split, and fire and gas poured out. Within ten years, what had been fertile farmland became a towering cinder cone volcano. Today, the view from the rim of Parícutin is breathtaking.</p>
+                               <div class="buttons">
+                                <button>Explore</button>
+                                <button>Know More</button>
+                               </div>
+                            </div>
+                        </div> 
+                        <div class="explore-nature" id="three">
+                            <div class="img-sec">
+                                <i onclick="changeBackgroundThree();" class="ri-arrow-left-wide-line"></i>
+                                <i onclick="changeBackgroundThree();" class="ri-arrow-right-wide-line"></i>
+                            </div>
+                            <div class="content-sec">
+                                <h2>Victoria Falls</h2>
+                                <p>Known in the Lozi language as Mosi-oa-Tunya, 'The Smoke That Thunders', Victoria Falls is one of the world's largest waterfalls, measuring nearly two kilometres in length, where the entire flow of the Zambezi river plunges 100 metres into the gorge below.</p>
+                                <div class="buttons">
+                                    <button>Explore</button>
+                                    <button>Know More</button>
+                                   </div>
+                            </div>
+                        </div>
+                        <div class="explore-nature" id="four">
+                            <div class="img-sec">
+                                <i onclick="changeBackgroundFour();" class="ri-arrow-left-wide-line"></i>
+                                <i onclick="changeBackgroundFour();" class="ri-arrow-right-wide-line"></i>
+                            </div>
+                            <div class="content-sec">
+                                <h2>Guanabara Bay</h2>
+                                <p>The way to Rio de Janeiro passes through Guanabara Bay, and at its entrance is is a sight recognised around the world, Pão de Açúcar, Sugarloaf Mountain. But this is just one of the many stunning mountains that rise straight from the waters of Guanabara Bay.</p>
+                               <div class="buttons">
+                                <button>Explore</button>
+                                <button>Know More</button>
+                               </div>
+                            </div>
+                        </div> 
+                        <div class="explore-nature" id="five">
+                            <div class="img-sec">
+                                <i onclick="changeBackgroundFive();" class="ri-arrow-left-wide-line"></i>
+                                <i onclick="changeBackgroundFive();" class="ri-arrow-right-wide-line"></i>
+                            </div>
+                            <div class="content-sec">
+                                <h2>Great Barrier Reef</h2>
+                                <p>Under the shallow waters of the Coral Sea, off the east coast of Australia, is the Great Barrier Reef - the largest coral reef system on Earth, and a marvel of nature. The reef supports an abundance of animals, and features in the myths and folklore of aboriginal peoples.</p>
+                                <div class="buttons">
+                                    <button>Explore</button>
+                                    <button>Know More</button>
+                                   </div>
+                            </div>
+                        </div>
+                        <div class="explore-nature" id="six">
+                            <div class="img-sec">
+                                <i onclick="changeBackgroundSix();" class="ri-arrow-left-wide-line"></i>
+                                <i onclick="changeBackgroundSix();" class="ri-arrow-right-wide-line"></i>
+                            </div>
+                            <div class="content-sec">
+                                <h2>The Grand Canyon</h2>
+                                <p>The Colorado River first reached this plateau around 8 million years ago. Since then, the river has cut a winding course through the rock. The canyon is 446km long, up to 30km wide, and nearly 2km deep. For millennia, the canyon has been a holy site for the the Pueblo people.</p>
+                               <div class="buttons">
+                                <button>Explore</button>
+                                <button>Know More</button>
+                               </div>
+                            </div>
+                        </div> 
+                        <div class="explore-nature" id="seven">
+                            <div class="img-sec">
+                                <i onclick="changeBackgroundSeven();" class="ri-arrow-left-wide-line"></i>
+                                <i onclick="changeBackgroundSeven();" class="ri-arrow-right-wide-line"></i>
+                            </div>
+                            <div class="content-sec">
+                                <h2>The Aurora Borealis</h2>
+                                <p>If you're ever travelling in the Arctic or Antarctic circles, make sure to watch the dark winter skies, you might just catch a glimpse of the Aurora Borealis. The uncertainty and fleeting nature of these mercurial lights makes them all the more a wonder to behold.</p>
+                                <div class="buttons">
+                                    <button>Explore</button>
+                                    <button>Know More</button>
+                                   </div>
+                            </div>
+                        </div>
+                        <i onclick="nextSlide();" class="ri-arrow-right-s-fill"></i>
+                    </div>
+            </div>
+        </div>
+        <div id="page-5">
+            <h1>Advanture & Helps</h1>
+            <div class="memorys">
+                <div class="memory">
+                    <i class="ri-road-map-line"></i>
+                    <h2>Forest Travel</h2>
+                    <p>Through forest travel, we can help in saving the environment.</p>
+                    <div class="buttom-icon">
+                        <button>Now</button>
+                        <i class="ri-arrow-right-line"></i>
+                    </div>
+                </div>
+                <div class="memory">
+                    <i class="ri-medium-line"></i>
+                    <h2>Inner Peace</h2>
+                    <p>Self-control and meditation bring inner peace and balance.</p>
+                    <div class="buttom-icon">
+                        <button>Now</button>
+                        <i class="ri-arrow-right-line"></i>
+                    </div>
+                </div>
+                <div class="memory">
+                    <i class="ri-earth-line"></i>
+                    <h2>Planet Protection</h2>
+                    <p>For planet protection, it is necessary to protect the environment</p>
+                   <div class="buttom-icon">
+                       <button>Now</button>
+                        <i class="ri-arrow-right-line"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page-6">
+                <div class="donation">
+                    <h1><span>Save the Planet</span>  initiative, you could use</h1>
+                    <button>Contribute Now</button>
+                </div>
+        </div>
+        <div id="page-7">
+            <div class="community">
+                <div class="community-part">
+                        <h2>Meet Our community</h2>
+                        <div class="info">
+                            <h3>Dharamraj</h3>
+                            <p>Hello and welcome! We're excited to introduce Pure Planet, a community dedicated to environmental preservation and sustainable living. Our mission is to inspire positive action to protect our planet. We focus on eco-friendly practices, educating on sustainability, and organizing impactful initiatives. Whether you’re an environmental enthusiast or just starting your journey, there's a place for you here. Join us as we work together for a cleaner, greener world.</p>
+                        </div>
+                        <div class="connect">
+                            <button>Meet Team</button>
+                            <button>Know More</button>
+                        </div>
+                </div>
+                <div class="community-part">
+                </div>
+            </div>
+        </div> 
+        <div id="page-8"></div>
+        <div id="page-9"></div>
+        <div id="page-10">
+            <div class="header" >
+            </div>
+            <div class="header-1">
+                <h1>Keep In Touch</h1>
+                <p>Stay in touch with Pure Planet for sustainable living tips and eco-friendly solutions.</p>
+                <div class="subscribe">
+                    <i class="ri-mail-line"></i>
+                    <input type="email" placeholder="Email Address">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+            <div class="footer">
+                    <div class="footer-address">
+                        <div class="address">
+                            <i class="ri-map-pin-2-fill"></i>
+                            <h3>Dharamraj Koderma</h3>
+                            <h3>Jharkhand India 825318</h3>
+                        </div>
+                        <div class="address">
+                            <img src="Bottom Logo.png" alt="">
+                        </div>
+                        <div class="address">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <h3>Reach Out</h3>
+                            <h3>+91 1234567890</h3>
+                        </div>
+                    </div>
+                    <div class="footer-elem">
+                        <h2>About Us</h2>
+                        <h2>Our Mission</h2>
+                        <h2>Services</h2>
+                        <h2>Contact</h2>
+                        <h2>FAQ</h2>
+                        <h2>Terms & Conditions</h2>
+                        <h2>Privacy Policy</h2>
+                    </div>
+                    <div class="footer-connect">
+                        <div class="links" id="link-one">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </div>
+                        <div class="links">
+                            <img src="240_F_856938461_bEiM24SW6jPH38C4BYAcpPoNAkc8xqAE-removebg-preview.png" alt="">
+                        </div>
+                        <div class="links">
+                            <h1>thanks for visit...</h1>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
